@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./*"]
+    }
+  }
+}
+And in package.json, change:
+"build": "vite build --force"
